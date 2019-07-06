@@ -33,7 +33,7 @@
             </suiteXmlFiles>
             <scope>integration-test</scope>
             <systemPropertyVariables>                             
-            <environment>qa</environment>                                                                                               
+            <environment>${env.BROWSER}</environment>                                                                                               
             </systemPropertyVariables>
             <!-- <systemPropertyVariables>                             <environment>${env.ENV}</environment>                                                                                               
             </systemPropertyVariables>  -->

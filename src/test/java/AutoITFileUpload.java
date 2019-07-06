@@ -9,8 +9,9 @@ import org.testng.annotations.Test;
 
 public class AutoITFileUpload {
 @Test
-public void fileUpload() throws InterruptedException, IOException{
-	System.getProperty("Webdriver.chrome.driver", "C:\\Users\\bhoomi\\workspace\\AutoItArt\\chromedriver.exe");
+public void fileUpload() {
+	System.out.println("QA jenkins "+System.getProperty("environment"));
+	/*System.getProperty("Webdriver.chrome.driver", "C:\\Users\\bhoomi\\workspace\\AutoItArt\\chromedriver.exe");
 	DesiredCapabilities capabilities = new DesiredCapabilities();
 	capabilities.setCapability("something", true);
 	
@@ -20,6 +21,7 @@ public void fileUpload() throws InterruptedException, IOException{
 	dr.findElement(By.xpath("//*[@id='1']")).click();
 	Thread.sleep(2000);
 	Runtime.getRuntime().exec("C:\\Users\\bhoomi\\Desktop\\upload\\upload.exe");
+	*/
 }
 
 }
