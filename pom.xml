@@ -33,7 +33,7 @@
             </suiteXmlFiles>
             <scope>integration-test</scope>
             <systemPropertyVariables>                             
-            <environment>${env.BROWSER}</environment>                                                                                               
+             <krishna1>${env.krishna}</krishna1> <!--  in jekins pass as clean test -Dkrishna=chrome -->                                                                                           
             </systemPropertyVariables>
             <!-- <systemPropertyVariables>                             <environment>${env.ENV}</environment>                                                                                               
             </systemPropertyVariables>  -->

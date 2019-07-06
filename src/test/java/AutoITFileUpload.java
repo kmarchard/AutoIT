@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class AutoITFileUpload {
 @Test
 public void fileUpload() {
-	System.out.println("QA jenkins "+System.getProperty("environment"));
+	System.out.println("QA jenkins "+System.getProperty("krishna"));
 	/*System.getProperty("Webdriver.chrome.driver", "C:\\Users\\bhoomi\\workspace\\AutoItArt\\chromedriver.exe");
 	DesiredCapabilities capabilities = new DesiredCapabilities();
 	capabilities.setCapability("something", true);
