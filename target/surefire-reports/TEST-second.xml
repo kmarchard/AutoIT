@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.014" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="second" time="0.013" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
@@ -15,6 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="second"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\bhoomi\workspace\newbranch\.git\AutoIT"/>
     <property name="java.runtime.version" value="1.8.0_211-b12"/>
@@ -26,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\bhoomi\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf892932424239309459.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\bhoomi\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7068289433373651590.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_211/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_211/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_211/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\bhoomi\Downloads\New\apache-maven-3.6.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Git\bin;%Home%;C:\Users\bhoomi\AppData\Local\Microsoft\WindowsApps;;C:\Users\bhoomi\Downloads\Eclipse mars\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -38,13 +39,13 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="krishna" value="IE"/>
+    <property name="krishna" value="chrome"/>
     <property name="user.name" value="bhoomi"/>
     <property name="java.class.path" value="/C:/Users/bhoomi/Downloads/Eclipse mars/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test -Dkrishna=IE"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test -Dkrishna=chrome -Dtest=second"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="fileUpload" classname="AutoITFileUpload" time="0.014"/>
+  <testcase name="secondTest" classname="second" time="0.013"/>
 </testsuite>

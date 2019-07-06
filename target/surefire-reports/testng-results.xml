@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43" started-at="2019-07-06T09:35:00Z" finished-at="2019-07-06T09:35:00Z">
+  <suite name="second" duration-ms="38" started-at="2019-07-06T14:24:28Z" finished-at="2019-07-06T14:24:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43" started-at="2019-07-06T09:35:00Z" finished-at="2019-07-06T09:35:00Z">
-      <class name="AutoITFileUpload">
-        <test-method status="PASS" signature="fileUpload()[pri:0, instance:AutoITFileUpload@7907ec20]" name="fileUpload" duration-ms="15" started-at="2019-07-06T15:05:00Z" finished-at="2019-07-06T15:05:00Z">
+    <test name="Command line test 48f9282f-2840-4bca-8426-9f4d8c750dba" duration-ms="38" started-at="2019-07-06T14:24:28Z" finished-at="2019-07-06T14:24:28Z">
+      <class name="second">
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:second@233c0b17]" name="secondTest" duration-ms="14" started-at="2019-07-06T19:54:28Z" finished-at="2019-07-06T19:54:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileUpload -->
-      </class> <!-- AutoITFileUpload -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- secondTest -->
+      </class> <!-- second -->
+    </test> <!-- Command line test 48f9282f-2840-4bca-8426-9f4d8c750dba -->
+  </suite> <!-- second -->
 </testng-results>

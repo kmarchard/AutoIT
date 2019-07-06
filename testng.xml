@@ -4,7 +4,8 @@
   <test name="Default test" verbose="2">
 
     <classes>
-      <class name="AutoITFileUpload"/>
+      <!--  <class name="AutoITFileUpload"/>-->
+      <class name="tc"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->
